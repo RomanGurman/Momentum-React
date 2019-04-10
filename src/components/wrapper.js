@@ -4,8 +4,6 @@ import List from './list';
 import Clock from './clock';
 import Focus from './focus';
 import Link from './link';
-// import Toggler from './toggler';
-
 
 const WrapperPicture = styled.div`
     height: 100vh;
@@ -14,21 +12,6 @@ const WrapperPicture = styled.div`
     background-size: cover;
     overflow: hidden;
 `;
-
-// const Desktop = styled.div`
-//     position: absolute;
-//     top: 50%;
-//     left: 50%;
-//     margin-top: -350px;
-//     margin-left: -350px;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content:center;
-//     align-items: center;
-//     width: 650px;
-//     height: 650px;
-//     overflow: hidden;
-// `
 
 export default class Wrapper extends React.Component {
     state = {
@@ -41,7 +24,6 @@ export default class Wrapper extends React.Component {
                 <Clock />
                 <List />
                 <Link />
-                {/* <Toggler /> */}
             </WrapperPicture>
 
         )

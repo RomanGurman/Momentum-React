@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import '../index.css'
 
 const NavWrapper = styled.div`
-display: flex;
-align-items: flex-end;
+    display: flex;
+    align-items: flex-end;
 `;
 export default class Nav extends React.Component {
     state = {
@@ -15,8 +15,8 @@ export default class Nav extends React.Component {
             target.setAttribute('checked', true);
             target.parentNode.style.textDecoration = "line-through";
         } else {
-           target.removeAttribute('checked');
-           target.parentNode.style.textDecoration = "";
+            target.removeAttribute('checked');
+            target.parentNode.style.textDecoration = "";
         }
     }
     render() {

@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import '../index.css';
 
 const CreateWrapper = styled.div`
-display: flex;
-align-items: flex-start;
+    display: flex;
+a   lign-items: flex-start;
 `;
 
 export default class CreateList extends React.Component {

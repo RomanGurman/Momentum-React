@@ -14,8 +14,8 @@ export default class Task extends React.Component {
             target.setAttribute('checked', true);
             target.parentNode.style.textDecoration = "line-through";
         } else {
-           target.removeAttribute('checked');
-           target.parentNode.style.textDecoration = "";
+            target.removeAttribute('checked');
+            target.parentNode.style.textDecoration = "";
         }
     }
     render() {

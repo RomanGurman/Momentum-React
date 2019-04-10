@@ -64,18 +64,18 @@ code {
 }
 
 .nav-wrapper.nav-wrapper--open {
-    display: flex;
-    align-items: flex-start;
-    margin: 30px;
-    padding: 30px;
-    position: fixed;
-    left: 1px;
-    color: white;
+  display: flex;
+  align-items: flex-start;
+  margin: 30px;
+  padding: 30px;
+  position: fixed;
+  left: 1px;
+  color: white;
 }
 
 .local {
   color: white;
 }
 .local2 {
-color: white;
+  color: white;
 }
