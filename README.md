@@ -1,4 +1,4 @@
-![](https://github.com/RomanGurman/Momentum-React/blob/master/src/img/image.png).
+![](https://github.com/RomanGurman/Momentum-React/blob/master/src/img/image.png)
 
 ## Available Scripts
 
